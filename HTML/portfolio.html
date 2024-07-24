@@ -13,6 +13,45 @@
         .about-me{
             color: blueviolet;
         }
+
+        /* p::first-letter{
+            font-size: larger;
+        }  */
+         /* p::first-line{
+            font-size: 70px;
+        } 
+         p::before{
+            content: url("../assets/portrait-man.jpg") ;height:"70px" ;width:"110px";
+         }
+         input:focus{
+            color: tomato;
+         }
+         ::selection{
+            color: yellowgreen;
+         }
+         ::marker{
+            color:cadetblue;
+         } */ 
+        .main-div > h1{
+            color: aqua;
+        }
+        .color_rgb{
+            color:rgb(255,0,0);
+        }
+        .color_rgba{
+            color:rgb(255,0,0,0.5);
+        }
+        .color_hex{
+            color:#ff0000;
+        }
+        .color_hsl{
+            color:hsl(0,100%,50%);
+        }
+        .color_hsla{
+            color:hsl(0,100%,50%,0.5);
+        }
+
+
     </style>
    
 </head>
@@ -86,6 +125,21 @@
             <input type="submit" value="Submit">
         </form>
     </div>
+    <!-- <div>
+        <p id="para">This is the sentence. </p>
+    </div>
+    <div class="main-div">
+        <p >This is the sentence. </p>
+        <h1>ddwdwdw</h1>
+        <div><h1>dwdwdwd</h1></div>
+    </div> -->
 
+    <div>
+        <p class="color_rgb">This is color rgb</p>
+        <p class="color_rgba">THis is color rgba</p>
+        <p class="color_hex">This is color hex</p>
+        <p class="color_hsl">This is color hsl</p>
+        <p class="color_hsla">This is color hsla</p>
+    </div>
 </body>
 </html>

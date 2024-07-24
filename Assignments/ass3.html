@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    height: 150vh;
+    margin: 0;
+    
+    
+}
+
+.product-card {
+    background-color: #eaeceb;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 23px;
+    margin: 2px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    text-align: center;
+}
+
+.product-card:hover {
+    background-color: #f0f0f0;
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 8px ;
+    margin-bottom: 15px;
+}
+
+.product-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333333;
+}
+
+.product-description {
+    font-size: 1em;
+    color: #6f6f6f;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    background-color: rgb(1, 134, 217);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.buy-now:hover {
+    background-color: rgb(37, 107, 37);
+}
+
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="Capture.PNG" alt="Product Image" class="product-image">
+        <h2 class="product-name">Oyster Perpetual</h2>
+        <p class="product-description">Oyster, 41mm, Oystersteel
+            Reference 124300
+        </p>
+        <p class="product-price">₹961,000</p>
+        <button class="buy-now">Buy Now</button>
+    </div>
+</body>
+</html>

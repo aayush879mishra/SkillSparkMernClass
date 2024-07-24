@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        #elm-position{
+            height: 100vh;
+            background-color: antiquewhite;
+            position: relative;
+        }
+        #div1, #div2 ,#div3{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 100px;
+        }
+        #div1{
+            background-color: rgb(101, 134, 123);
+            color: white;
+            position: relative;
+            left: 50px;
+
+        }
+        #div2{
+            background-color: cadetblue;
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% ,-50%);
+        }
+        #div3{
+            background-color: chocolate;
+            color: white;
+            position: fixed;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>We are learning Positions</h1>
+    </div>
+    <div id="elm-position">
+        <div id="div1">Div 1</div>
+        <div id="div2">Div 2</div>
+        <div id="div3">Div 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DentiTech</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .nav {
+        background-color: white;
+        text-align: center;
+        padding: 0px;
+        /* box-shadow: 0 20px rgba(0, 0, 0, 0.3); */
+        /* border-bottom: 1px solid black;     */
+      }
+      .menu-btn,
+      .btn,
+      .logo {
+        display: inline-block;
+      }
+      .menu-btn {
+        float: left;
+        line-height: 68px;
+        padding: 0 20px;
+      }
+      .btn {
+        float: right;
+        line-height: 68px;
+        padding: 0 20px;
+      }
+      .menu {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      .signup {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 5px 9px;
+        cursor: pointer;
+      }
+      .login {
+        border: none;
+        border-radius: 8px;
+        padding: 5px 10px;
+        background-color: rgb(245, 106, 42);
+        color: aliceblue;
+        cursor: pointer;
+      }
+      .main {
+        background-color: rgb(238, 234, 234);
+        height: 100vh;
+        padding: 0;
+        text-align: center;
+        /* line-height: 500px; */
+        /* font-size: 50px; */
+      }
+      .middletext,
+      .lefttext,
+      .righttext,
+      .social-media {
+        display: inline-block;
+        /* height: 100px; */
+        position: relative;
+      }
+      .lefttext {
+        font-size: 18px;
+        padding: 0px;
+        float: left;
+        top: 118px;
+        left: 50px;
+      }
+      .middletext {
+        top: 200px;
+        font-size: 70px;
+        left: 50px;
+      }
+      .righttext {
+        font-size: 18px;
+        padding: 0;
+        float: right;
+        top: 147px;
+        right: 50px;
+      }
+      .social-media {
+        padding: 0;
+        float: right;
+        top: 118px;
+        right: -60px;
+      }
+      .social-media button {
+        border-style: none;
+        padding: 0;
+      }
+      .social-media button:hover {
+        cursor: pointer;
+        /* font-size: 1.05rem; */
+      }
+
+      .image-stack {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        margin: 0 auto;
+        /* display: inline-block; */
+      }
+
+      .image-stack img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        /* border: 5px solid white;  */
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+        /* transform: rotate(-10deg);  */
+      }
+      .img1{
+        transform: rotate(-25deg);
+      }
+      .img2{
+        transform: rotate(-20deg);
+      }
+      .img3{
+        transform: rotate(-15deg);
+      }
+      .img4{
+        transform: rotate(-10deg);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="menu-btn">
+        <button class="menu">Menu</button>
+      </div>
+      <div class="logo">
+        <h1>DENTYTECH</h1>
+      </div>
+      <div class="btn">
+        <button class="signup">Signup</button>
+        <button class="login">Login</button>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="middletext"><span>Our </span>Advantages</div>
+      <div class="image-stack">
+        <img src="../../assets/portrait-man.jpg" alt="Advantage Image" class="img1"/>
+        <img src="../../assets/pexels-mikey-dabro-293966-1002669.jpg" class="img2" />
+        <img src="../../assets/pexels1.jpg" class="img3" />
+        <img src="../../assets/pexels-ash.jpg" class="img4" />
+        
+
+
+      </div>
+      <div class="lefttext">Your Smile, Our Position</div>
+      <div class="righttext">Best start up of 2023</div>
+      <div class="social-media">
+        <button>
+          <img
+            src="../../assets/instagram.png"
+            alt="Instagram"
+            style="height: 20px"
+          />
+        </button>
+        <button>
+          <img
+            src="../../assets/youtube.png"
+            alt="YouTube"
+            style="height: 20px"
+          />
+        </button>
+        <button>
+          <img
+            src="../../assets/facebook.png"
+            alt="Facebook"
+            style="height: 20px"
+          />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

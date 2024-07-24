@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edeaea;
+}
+
+header {
+    background-color: #447a75;
+    color: #fff;
+    text-align: center;
+    padding: 0.8rem 0;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+aside {
+    width: 35%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(2, 2, 2, 0.2);
+    margin-right: 10px;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+main {
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* h1, h2 {
+    margin-top: 0;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 4px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #fcf8f8;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e8d0d0;
+}
+
+footer {
+    text-align: center;
+    padding: 0.1rem 0;
+    background-color: #318974;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ayush Mishra</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <img src="../assets/portrait-man.jpg" alt="John Doe">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: aayushmishra@gmail.com</li>
+                <li>Phone: 9865191908</li>
+                <li>Address:  Dillibazar, Kathmandu</li>
+            </ul>
+        </aside>
+        <main>
+            <section>
+                <h2>About Me</h2>
+                <p>Hi, I am Ayush Mishra. I am currently studing BIM at Shanker Dev campus which is situated in Kathmandu. </p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                 
+                </ul>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Board</th>
+                            <th>Year</th>
+                            <th>CGPA</th>
+                            <th>College</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>NEB</td>
+                            <td>2020</td>
+                            <td>A</td>
+                            <td>NIST</td>
+                        </tr>
+                        <tr>
+                            <td>TU</td>
+                            <td>2021-Present</td>
+                            <td>Running</td>
+                            <td>Shanker dev</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>All right belongs to Ayush Mishra</p>
+    </footer>
+</body>
+</html>
